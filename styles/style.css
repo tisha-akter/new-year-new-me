@@ -121,7 +121,8 @@
     color: #FFFFFF;
     margin-bottom: 35px;
 }
-.button{
+
+.button {
     text-align: center;
     font-weight: 600;
     font-size: 18px;
@@ -131,4 +132,34 @@
     color: #F15B22;
     background: #FFFFFF;
     border-radius: 5px;
+}
+
+/* extra-section styles  */
+.extra-section {
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), #79a9e8;
+
+    width: 1130px;
+    height: 350px;
+    margin: 135px 230px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.exta {
+    padding-top: 35px;
+    color: #f3f4fc;
+}
+
+.exra-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+.exra-description {
+    font-weight: 500;
+    font-size: 20px;
+    width: 500px;
+    margin-bottom: 30px;
+    margin-left: 300px;
 }
