@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* header's banner */
@@ -7,6 +8,7 @@
     width: 16000;
     height: 800px;
     background-image: url("../images/banner/banner2.png");
+    background-repeat: no-repeat;
     text-align: right;
     padding-right: 230px;
 }
@@ -25,7 +27,7 @@
     color: #444343;
 }
 
-.btn-primary{
+.btn-primary {
     font-weight: 600;
     font-size: 18px;
     padding: 18px 35px;
@@ -34,4 +36,32 @@
     color: #FFFFFF;
     background: #2b31d7;
     border-radius: 5px;
+}
+
+/* failures-content styles */
+.content-section {
+    display: flex;
+    align-items: center;
+    padding: 110px 300px 150px 220px;
+}
+
+.content {
+    width: 410px;
+    height: 400px;
+    margin-left: 110px;
+    margin-top: 150px;
+}
+
+.content-title {
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #0f0d0d;
+}
+.content-sub-title{
+    margin-bottom: 20px;
+    font-weight: 400px;
+    font-size: 15px;
+    color: #444343;
+    gap: 30PX;
 }
