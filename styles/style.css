@@ -10,7 +10,7 @@
     background-image: url("../images/banner/banner2.png");
     background-repeat: no-repeat;
     text-align: right;
-    padding-right: 20px;
+    padding-right: 200px;
 }
 
 .banner-title {
@@ -34,7 +34,7 @@
     border: 0;
     height: 64px;
     color: #FFFFFF;
-    background: #2b31d7;
+    background: #F15B22;
     border-radius: 5px;
 }
 
@@ -68,11 +68,12 @@
 }
 
 /* My plans styles */
-.plan-section-title{
+.plan-section-title {
     text-align: center;
 }
+
 .my-plans {
-   
+
     font-weight: 700;
     font-size: 30px;
 }
@@ -80,8 +81,8 @@
 .plans-container {
     display: flex;
     gap: 110px;
-   text-align: center;
-   padding: 50px 245px 130px 300px;
+    text-align: center;
+    padding: 50px 245px 130px 300px;
 }
 
 .plan-title {
@@ -94,4 +95,40 @@
     color: #737272;
     font-weight: 500;
     font-size: 15px;
+}
+
+/* gradient section styles  */
+
+.container {
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url("../images/watch.png");
+
+    width: 1130px;
+    height: 300px;
+    margin: 135px 230px;
+    border-radius: 8px;
+}
+
+.main {
+    width: 450px;
+    height: 180px;
+    padding-left: 65px;
+    padding-top: 60px;
+}
+
+.gradient-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+}
+.button{
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 18px 35px;
+    border: 0;
+    height: 64px;
+    color: #F15B22;
+    background: #FFFFFF;
+    border-radius: 5px;
 }
