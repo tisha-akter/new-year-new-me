@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+}
+
+/* header's banner */
+.header {
+    width: 16000;
+    height: 800px;
+    background-image: url("../images/banner/banner2.png");
+    text-align: right;
+    padding-right: 230px;
+}
+
+.banner-title {
+    margin-bottom: 25px;
+    padding-top: 215px;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.banner-description {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+.btn-primary{
+    font-weight: 600;
+    font-size: 18px;
+    padding: 18px 35px;
+    border: 0;
+    height: 64px;
+    color: #FFFFFF;
+    background: #2b31d7;
+    border-radius: 5px;
+}
