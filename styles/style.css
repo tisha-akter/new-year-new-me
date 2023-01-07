@@ -10,7 +10,7 @@
     background-image: url("../images/banner/banner2.png");
     background-repeat: no-repeat;
     text-align: right;
-    padding-right: 230px;
+    padding-right: 20px;
 }
 
 .banner-title {
@@ -58,10 +58,40 @@
     font-size: 40px;
     color: #0f0d0d;
 }
-.content-sub-title{
+
+.content-sub-title {
     margin-bottom: 20px;
     font-weight: 400px;
     font-size: 15px;
     color: #444343;
     gap: 30PX;
+}
+
+/* My plans styles */
+.plan-section-title{
+    text-align: center;
+}
+.my-plans {
+   
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.plans-container {
+    display: flex;
+    gap: 110px;
+   text-align: center;
+   padding: 50px 245px 130px 300px;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.plans-description {
+    color: #737272;
+    font-weight: 500;
+    font-size: 15px;
 }
